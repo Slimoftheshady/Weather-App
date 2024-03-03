@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center; /*makes the body + everything inc text centred to screen */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: lightgrey;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+
+}
+
+.card { /*The middle box with all info */
+    background: #eaeaea;
+    opacity: 80%;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px; /*means it will be at 100% width but not look bad no matter screen size */
+    margin: 1em;
+}
