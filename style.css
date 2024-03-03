@@ -19,3 +19,23 @@ body {
     max-width: 420px; /*means it will be at 100% width but not look bad no matter screen size */
     margin: 1em;
 }
+
+.description {
+    text-transform: capitalize; /*makes text capitalized */
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
+/*makes the placeholder text disappear */
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading Weather";
+}
+/* generates the text "Loading Weather" whilst loading the weather details searched
