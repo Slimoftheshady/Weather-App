@@ -1,5 +1,4 @@
 # Weather-App
-Learn API
-First Project after some time
-
-CSS is basic as want to look at API
+First API Project
+CSS Is basic as point is to develop API knowledge
+apiKey needs actual key
